@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Assignment 2</title>
+	<style>
+
+		
+
+		/********* Desktop Version ***********/
+		@media (min-width: 992px) {
+			.col-lg-4 {
+				float: left;
+				width: 31%;
+			}
+  
+		}
+
+
+		/********* Tablet Version ***********/
+		@media (min-width: 768px) and (max-width: 991px) {
+			 .col-md-6, .col-md-11 {
+    				float: left;
+  					}
+  
+  				.col-md-6 {
+    				width: 48%;
+  				}
+  
+  				.col-md-11 {
+    				width: 98%;
+  				}
+  
+
+
+		}
+
+
+		/********* Mobile Version **********/
+		@media (max-width: 767px) {
+
+		.col-md-11 {
+    		border: 1px solid black;
+  		}
+  
+  		.col-s-11 {
+    		width: 98%;
+   		 	margin-bottom: 10px;
+
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="row">
+	<section class="col-lg-4 col-md-6 col-s-11">
+		<h2 id="d1">Chicken</h2>
+
+		<p>Curabitur at eros non lorem ultricies posuere. Vivamus efficitur, erat nec sagittis venenatis, ipsum eros efficitur nunc.</p>
+	</section>
+	<section class="col-lg-4 col-md-6 col-s-11">
+		<h2 id="d2">Beef</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae ligula nec urna fermentum ullamcorper.</p>
+	</section>
+	<section class="col-lg-4 col-md-6 col-md-11 col-s-11">
+		<h2 id="d3">Sushi</h2>
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+	</section>
+	</div>
+</body>
+</html>
